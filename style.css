@@ -28,9 +28,21 @@
    position: absolute;
    margin: 0;
    padding: 0;
-   color: White;
+   color: #F9F1E9;
    text-align: center;
    top: 60%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.main-title3 {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 70%;
    left: 50%;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
