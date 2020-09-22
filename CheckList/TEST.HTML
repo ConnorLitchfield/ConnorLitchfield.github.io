@@ -1,0 +1,29 @@
+<input type="checkbox" id="test" /> <label for="test">Test</label>
+
+<script>
+function App() {}
+
+App.prototype.setState = function(state) {
+  localStorage.setItem('checked', state);
+}
+
+App.prototype.getState = function() {
+  return localStorage.getItem('checked');
+}
+
+function init() {
+  var app = new App();
+  var state = app.getState();
+  var checkbox = document.querySelector('#test');
+
+  if (state == 'true') {
+    checkbox.checked = true;
+  }
+
+  checkbox.addEventListener('click', function() {
+      app.setState(checkbox.checked);
+  });
+}
+
+init();
+</script>
