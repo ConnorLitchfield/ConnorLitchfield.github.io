@@ -8,8 +8,8 @@
    z-index: 1;
 }
 
-.demo .large-header {
-   background-image: url("background.jpg");
+body {
+  background-image: url('Background.jpg');
 }
 
 .main-title {
