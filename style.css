@@ -10,7 +10,7 @@
 }
 
 .demo .large-header {
-	background: url(background.jpg);
+   background: url(background.jpg);
    background-repeat:no-repeat;
    background-size:cover;
 }
