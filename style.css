@@ -1,5 +1,5 @@
 .large-header {
-   background: url(Background.jpg);
+   background: url(https://connorlitchfield.github.io/Background.jpg);
    position: relative;
    width: 100%;
    background: #111;
@@ -9,8 +9,14 @@
    z-index: 1;
 }
 
+.Body {
+   background: url(https://connorlitchfield.github.io/Background.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
 .demo .large-header {
-   background: url("https://connorlitchfield.github.io/Background.jpg");
+   background: url(https://connorlitchfield.github.io/Background.jpg);
    background-repeat:no-repeat;
    background-size:cover;
 }
